@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5402daf-98ae-4233-bd46-a91abc38ebab" name="Default Changelist" comment="" />
+    <list default="true" id="b5402daf-98ae-4233-bd46-a91abc38ebab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/main/resources/routeMap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/handler/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/handler/HttpServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/initializer/HttpPipelineInitatizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/initializer/HttpPipelineInitatizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/server/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/server/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/src/main/resources/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/src/main/resources/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/chapter11-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/chapter11-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/apihandler/ApiProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/apihandler/ApiProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/apihandler/ApiRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/apihandler/ApiRoute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/apihandler/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/apihandler/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/handler/HttpServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/handler/HttpServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/initializer/HttpPipelineInitatizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/initializer/HttpPipelineInitatizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/server/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/classes/learn/nia/chapter11/server/HttpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/classes/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/classes/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/target/project.properties" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,8 +53,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1Qfl8Ugf0Vuh8Ntnnaxk1oxIxvS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -85,5 +116,69 @@
       <updated>1568169371347</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/handler/HttpServerHandler.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiProtocol.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiProtocol.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiRoute.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiProtocol.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiHandler.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiHandler.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter11/src/main/java/learn/nia/chapter11/apihandler/ApiHandler.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="apiList" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

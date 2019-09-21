@@ -21,10 +21,10 @@ public class ApiProtocol {
 
     private static final Logger logger = LoggerFactory.getLogger(ApiHandler.class);
 
-    private int        build = 101;
-    private String     version = "1.0";
-    private String     channel = "learn.nia";
-    private String     geo     = null;
+    private int        build    = 101;
+    private String     version  = "1.0";
+    private String     channel  = "learn.nia";
+    private String     geo      = null;
     private String     clientIp = null;
     private String     serverIp = null;
     private String     api      = null;
@@ -108,6 +108,16 @@ public class ApiProtocol {
 
         logger.info(uri);
         this.method = req.method();
+
+        this.parseEndpoint(uri);
+        setIp(ctx, req);
+        queryStringHandler(uri);
+        requestParamtersHandler(req);
+        requestBodyHandler(msg);
+
+        if (this.paramters.size() > 0) {
+            setFields();
+        }
 
     }
 

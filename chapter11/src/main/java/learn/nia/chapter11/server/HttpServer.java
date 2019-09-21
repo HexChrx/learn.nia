@@ -27,7 +27,7 @@ public class HttpServer {
             bootstrap.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
-                    .childHandler(new HttpServerHandler());
+                    .childHandler(new HttpPipelineInitatizer());
 
             Channel ch = bootstrap.bind(Config.getInt("server.port")).sync().channel();
 
