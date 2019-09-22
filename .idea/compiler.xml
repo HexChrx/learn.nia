@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter11" />
         <module name="chapter10" />
+        <module name="niawebsocket" />
         <module name="chapter9" />
       </profile>
     </annotationProcessing>

@@ -12,6 +12,7 @@
         <module>chapter10</module>
         <module>chapter9</module>
         <module>chapter11</module>
+        <module>nia-websocket</module>
     </modules>
 
     <properties>
